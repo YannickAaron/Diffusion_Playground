@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "default"
+name = "diffusionplayground"
 version = "0.1.0"
 description = ""
 authors = ["Yannick Aaron Lehr <yannick.lehr@ioki.com>"]

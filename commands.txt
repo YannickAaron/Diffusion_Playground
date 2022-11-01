@@ -1,3 +1,0 @@
-poetry run pre-commit
-
-git rm -r --cached .
