@@ -1,38 +1,8 @@
-# Python default project
+# Diffusion Playground
+Diffusion models are a new class of cutting-edge generative models that produce a wide range of high-resolution images.
 
-## Prerequisites
+The fundamental concept underlying diffusion models is straightforward. They start with the input image $x_0$ and gradually add Gaussian noise to it in $T$ steps. This can be referred to as the forward process (Note, this has nothing to do with a neural network's forward pass).
 
-### Install Homebrew
-install homebrew
+By reversing the noising process, a neural network is trained to recover the original data. Meaning it generates fresh data by modeling the reverse process. This is the reverse diffusion process, or the sampling process of a generative model in general.
 
-### Install pyenv
-
-### install prepare: ./husky/prepare
-
-# PythonDefaultProject
-Python Default to use for new Projects
-
-pytest: just name file _test.py
-
-
-poetry run python poetry-update.py -> build an npm package
-
-
-
-## Pre Commit
-
-**[General](https://github.com/pre-commit/pre-commit-hooks)**
-Repo: [https://github.com/pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
-
-Some out-of-the-box hooks for pre-commit.
-
-
-
-
-## TODO
-- [ ] add a script that automatically creates the structure needed for the project
-    - The script should be able to init poetry with the standard packages needed for the pre-commit hook
-    - The script should install husky if needed
-    - The script should differentiate between different needs for the project (e.g. notebook, code)
-    - The script should be able to select the pre-commit hook
-- [ ] add dependbot
+The purpose of this repository is to explore this technique and to provide a playground for experimenting with it.

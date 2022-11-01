@@ -6,6 +6,12 @@ authors = ["Yannick Aaron Lehr <yannick.lehr@ioki.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+torch = {path = "nightlytorch/torch-1.14.0.dev20221101-cp39-none-macosx_11_0_arm64.whl"}
+torchaudio = {path = "nightlytorch/torchaudio-0.14.0.dev20221101-cp39-cp39-macosx_12_0_arm64.whl"}
+torchvision = {path = "nightlytorch/torchvision-0.15.0.dev20221101-cp39-cp39-macosx_11_0_arm64.whl"}
+sklearn = "^0.0"
+matplotlib = "^3.6.1"
+pytorch-lightning = "^1.8.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.3"
