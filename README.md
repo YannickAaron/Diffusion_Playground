@@ -6,3 +6,6 @@ The fundamental concept underlying diffusion models is straightforward. They sta
 By reversing the noising process, a neural network is trained to recover the original data. Meaning it generates fresh data by modeling the reverse process. This is the reverse diffusion process, or the sampling process of a generative model in general.
 
 The purpose of this repository is to explore this technique and to provide a playground for experimenting with it.
+
+## Stable Diffusion
+
