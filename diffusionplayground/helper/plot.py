@@ -1,10 +1,10 @@
-import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import numpy as np
 import torch
-from sklearn.mixture import GaussianMixture
 import torch.distributions as distribution
 from matplotlib.patches import Ellipse
+from sklearn.mixture import GaussianMixture
 
 
 def hdr_plot_style():

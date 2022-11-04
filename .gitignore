@@ -14,6 +14,8 @@ __pycache__
 
 poetry.lock
 
+weights
+
 # cache
 .yarn-cache
 .mypy_cache

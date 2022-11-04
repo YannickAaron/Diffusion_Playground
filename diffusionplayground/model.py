@@ -1,11 +1,13 @@
+import math
+
+import pytorch_lightning as pl
 import torch
 import torch.nn as nn
-import pytorch_lightning as pl
-import math
+
 from diffusionplayground.modules.doubleCnv import DoubleConv
 from diffusionplayground.modules.outConv import OutConv
-from diffusionplayground.modules.upDown import Down, Up
 from diffusionplayground.modules.saWrapper import SAWrapper
+from diffusionplayground.modules.upDown import Down, Up
 
 
 class DiffusionModel(pl.LightningModule):
